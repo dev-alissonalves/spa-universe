@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 15vh;
+  width: 100%;
+  padding: 4rem 0rem 4rem 7rem;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+nav > div.menu {
+  display: flex;
+  gap: 5rem;
+}
+
+nav > div.menu a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.742);
+}
+
+nav > div.menu a:hover {
+  color: white;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA DE HOME */
+
+.home {
+  background-image: url("images/img-home.png");
+  transition: all 2s;
+}
+
+.container-home {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.container-home > h1 {
+  margin: -12rem 0 2rem 0;
+  font-weight: bolder;
+  font-size: 7rem;
+  line-height: 125%;
+}
+
+.container-home button {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: white;
+  padding: 1.5rem 3.2rem;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+.container-home button:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+}
+
+/* ESTILIZAÇÃO DA PÁGINA UNIVERSO E DA PÁGINA EXPLORAR */
+
+.universo {
+  background-image: url("../images/img-universo.png");
+  transition: all 2s;
+}
+
+.explorar {
+  background-image: url("../images/img-explorar.png");
+  transition: all 2s;
+}
+
+.container-universo,
+.container-explorar {
+  height: 70vh;
+  margin: 6rem 0 0 12rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 65rem;
+  transition: all 5s;
+}
+
+.container-universo > h1,
+.container-explorar > h1 {
+  font-weight: bolder;
+  font-size: 7rem;
+  line-height: 125%;
+}
+
+.container-universo > p,
+.container-explorar > p {
+  padding-top: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 160%;
+}
