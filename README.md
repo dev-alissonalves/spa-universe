@@ -1,5 +1,5 @@
 # Projeto SPA Universe - Página criada utilizando os conceitos de SPA (Single Page Application)
-# Deploy performed on the [explorer-the-universe.netlify.app](https://explorer-the-universe.netlify.app/)
+# Deploy performed on the [explorertheuniverse.netlify.app](https://explorertheuniverse.netlify.app)
 
 Este projeto trata-se de uma SPA (Single Page Application) desenvolvida como desafio no curso de desenvolvimento Full Stack da [Rocketseat](https://www.rocketseat.com.br). O objetivo é criar uma página que se pareça o mais próximo possível do layout fornecido e que contenha conceitos importantes de: 
 
